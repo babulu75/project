@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="C:\Users\babul\Desktop\project\style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Interactive Arithmetic Operations</h2>
+        
+            <div class="row">
+                <label for="num_A">Number A:</label>
+                <input type="number" id="num_A" placeholder="Enter a number">
+            </div>
+            <div class="row">
+                <label for="num_B">Number B:</label>
+                <input type="number" id="num_B" placeholder="Enter a number">
+            </div>
+            <div class="row">
+                <label for="operation">Operation:</label>
+                <select id="operation">
+                    <option value="+">Addition (+)</option>
+                    <option value="-">Substraction (-)</option>
+                    <option value="*">Multiplication (*)</option>
+                    <option value="/">Division (/)</option>
+                </select>
+            </div>
+            <div class="subBtn">
+                <button id="calculateBtn">Calculate</button>
+                <button id="clearBtn">Clear</button>
+            </div>
+        
+        <p id="result">Result: </p>
+        <div id="history">
+            <h2>Calculation History</h2>
+            <p id="historyLog"></p>
+        </div>
+    </div>
+    <script src="C:\Users\babul\Desktop\project\script.js"></script>
+</body>
+</html>
